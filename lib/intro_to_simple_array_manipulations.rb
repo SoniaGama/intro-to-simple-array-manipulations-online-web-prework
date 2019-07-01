@@ -26,6 +26,7 @@ def using_concat(array_one, array_two)
   array_one.concat(array_two)
 end
 
+<<<<<<< HEAD
 def using_insert(array, element)
   array.insert(4, element)
 end
@@ -46,3 +47,7 @@ def using_delete_at(array, element)
   array.delete(array[element.to_i])
 end
 
+=======
+using_insert
+using_uniq
+>>>>>>> 506d27ad005fe298750de787e336bae36a7385d4
